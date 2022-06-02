@@ -1,8 +1,8 @@
-import string
 import base64
-from os import system, name
+import string
 import time
 import traceback
+from os import system, name
 from string import ascii_lowercase
 
 LETTERS = {letter: str(index) for index, letter in enumerate(ascii_lowercase, start=1)}
@@ -63,7 +63,7 @@ def decode():
                 base64_decode()
 
         else:
-            print(or2)
+            print(or2 + "3")
 
 
 def cipher_decode():
